@@ -8,7 +8,7 @@
 # Anime  Quality Improver
 
 Построено на базе [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN). Улучшает качество изображения аниме в разы,
-пример ниже это преобразование изображения 420x240 в QUHD (2560x1440)
+пример ниже это преобразование изображения 420x240 в QHD (2560x1440)
 
 | Оригинал  (420x240)      | Обработанное (2560x1440)          |  
 | ------------- |:-------------:|  
@@ -40,7 +40,7 @@ python -m virtualenv venv && venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 4. [Скачать](https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth) модель и положить ее в папку `model`
+### 4. [Скачать](https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth) модель, создать папку `model` и положить в нее модель 
 
 ### 5. Запустить jupyter
 
