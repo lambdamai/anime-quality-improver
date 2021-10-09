@@ -4,3 +4,4 @@
 venv
 /model/*.pth
 .ipynb_checkpoints
+.idea

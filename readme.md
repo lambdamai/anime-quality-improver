@@ -14,7 +14,7 @@
 1. Клонировать репозиторий
 
 ```bash
- git clone  
+ git clone  https://github.com/lambdamai/anime-quality-improver.git
 ```
 
 2. Поставить виртуальное окружение
