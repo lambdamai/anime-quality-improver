@@ -2,6 +2,6 @@
 *.mp3
 *.avi
 venv
-/model/*.pth
+
 .ipynb_checkpoints
 .idea
