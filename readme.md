@@ -39,10 +39,15 @@ python -m virtualenv venv && venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+### 4. Ставим  Real-ESRGAN
 
-### 4. [Скачать](https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth) модель, создать папку `model` и положить в нее модель 
+```bash
+pip install git+https://github.com/xinntao/Real-ESRGAN.git@772923e207582f4983aaf77e3b55ae1f6974b994
+```
 
-### 5. Запустить jupyter
+### 5. [Скачать](https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.2.4/RealESRGAN_x4plus_anime_6B.pth) модель, создать папку `model` и положить в нее модель 
+
+### 6. Запустить jupyter
 
 ```bash
 jupyter notebook
